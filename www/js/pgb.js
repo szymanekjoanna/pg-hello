@@ -25,7 +25,7 @@ function personalData() {
 	info =  'Hi, I am not your smartphone :-)' + '\n' +
 			'=====' + '\n' +
 			'Name    : '     + 'Joanna'   + '\n' + 
-			'Surname: ' + 'Szymanek' + '\n' + 
+			'Surname: ' + 'Szymanek' + '\n';
 	
 
 	navigator.notification.alert(info);
