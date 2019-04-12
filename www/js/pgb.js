@@ -24,9 +24,11 @@ function deviceInfo() {
 function personalData() {
 	info =  'Hi, I am not your smartphone :-)' + '\n' +
 			'=====' + '\n' +
-			'Name    : '     + 'Joanna'   + '\n' + 
-			'Surname: ' + 'Szymanek' + '\n';
-	
+			'Name and surname: ' + 'Joanna Szymanek'   + '\n' + 
+			'Email: ' + 'jakiś@email.com' + '\n' +
+			'Website: ' + '----' + '\n' +
+			'Dean\'s group: ' + '1212' + '\n' +
+			'Field of study' + 'Computer science' + '\n';
 
 	navigator.notification.alert(info);
 
